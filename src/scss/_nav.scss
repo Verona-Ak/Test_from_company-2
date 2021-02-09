@@ -1,0 +1,24 @@
+.nav {
+    &__list {
+        display: flex;
+        list-style-type: none;
+    }
+    &__item {
+        margin-right: 43px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__link {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1;
+        text-align: center;
+        color: #FFFFFF;
+        &:hover {
+            color: #E8232E;
+            font-weight: normal;
+        }
+    }
+}

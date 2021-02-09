@@ -1,0 +1,77 @@
+.facts {
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    min-height: 1888px;
+    &__inf {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 150px;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+    &__title {
+        margin-top: 194px;
+        font-family: 'Prata', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 115%;
+        color: #121925;
+    }
+    &__car-first {
+        display: block;
+        width: 945px;
+        height: 985px;
+        margin-right: 154px;
+    }
+    &__car-second {
+        display: block;
+        width: 712px;
+        height: 753px;
+        margin-left: 154px;
+    }
+    &__descr {
+        margin-top: 51px;
+        width: 466px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+        color: #4E535B;
+    }
+    &__descr_left {
+        margin-left: 355px;
+    }
+    &__num-item {
+        margin-left: 20px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+        color: #4E535B;
+        &::marker {
+            color: #E8232E;
+            font-weight: 600;
+            font-family: 'Inter', serif;
+        }
+    }
+    &__marker-item {
+        list-style-type: none;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+        color: #4E535B;
+        &::before {
+            content: "\2013  "; 
+            color: #E8232E;
+            font-weight: 600;
+        }
+    }
+}

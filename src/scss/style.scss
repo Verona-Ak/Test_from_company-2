@@ -1,0 +1,46 @@
+@import "_header.scss";
+@import "_nav.scss";
+@import "_advantages.scss";
+@import "_facts.scss";
+@import "_technical.scss";
+@import "_work.scss";
+@import "_slider.scss";
+@import "_range.scss";
+@import "_map.scss";
+@import "_footer.scss";
+// font-family: 'Inter', sans-serif;
+// font-family: 'Prata', serif;
+// font-family: 'Roboto', sans-serif;
+*, ::before, ::after {
+    font-family: 'Prata', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    border: none;
+}
+a {
+    text-decoration: none;
+    &:active, &:focus {
+        outline: none;
+    }
+    &:hover {
+        color: #404040;
+    }
+
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+button, input {
+    &:active, &:focus {
+        outline: none;
+    }
+}
+ol, ul, li{
+    padding: 0;
+    margin: 0;
+    // list-style-type: none;
+}

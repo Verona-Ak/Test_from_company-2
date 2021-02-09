@@ -1,0 +1,106 @@
+.header {
+    position: relative;
+    background: url('../img/header_bg.jpg') center center/cover no-repeat;
+    width: 1920px;
+    height: 948px;
+    margin: 0 auto;
+    padding: 48px 227px 100px 228px;
+    &__wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &__logo {
+        display: block;
+        width: 120px;
+        height: 40px;
+        margin-right: 404px;
+    }
+    &__nav {
+        margin-right: 266px;
+    }
+    &__lenguage {
+        margin-right: 48px;
+        padding: 0;
+        background-color: transparent;
+        background-image: url("../img/arrow.svg");
+        background-size: 10px 6px;
+        background-position: 24px 7px;
+        width: 34px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1;
+        color: #FFFFFF;
+        &:active, &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+        border: none;
+        cursor: pointer;
+    }
+    &__leng-item {
+        background-color: transparent;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1;
+        color: #FFFFFF;
+    }
+    &__phone {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 1;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    &__title {
+        margin-top: 286px;
+        font-family: 'Prata', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 96px;
+        line-height: 115%;
+        color: #FFFFFF;
+    }
+    &__descr {
+        position: relative;
+        margin-top: 69px;
+        margin-left: 103px;
+        width: 458px;
+        height: 134px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 150%;
+        color: #FFFFFF;
+        &::before {
+            position: absolute;
+            top: -23px;
+            left: -47px;
+            content: '';
+            width: 2px;
+            height: 179px;
+            background-color: #E8232E;
+            
+        }
+    }
+    &__scroll {
+        position: absolute;
+        bottom: 126px;
+        right: 231px;
+        width: 41px;
+        height: 40px;
+        border: 1px solid #FFFFFF;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-top: 15px;
+            width: 17px;
+            height: 10px;
+        }
+        cursor: pointer;
+    }
+}

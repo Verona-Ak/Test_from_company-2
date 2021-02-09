@@ -1,0 +1,45 @@
+.technical {
+    width: 1920px;
+    margin: 0 auto;
+    height: 818px;
+    background-color: #FFFFFF;
+    padding: 195px 231px 0 228px;
+    &__title {
+        font-family: 'Prata', serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 64px;
+        line-height: 115%;
+        color: #121925;
+    }
+    &__table {
+        margin-top: 70px;
+        width: 1461px;
+        thead {
+            background-color: #4E535B;
+            tr {
+                height: 100px;
+            }
+        }
+        th, td {
+            text-align: center;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 150%;
+            color: #121925;
+        }
+        th {
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        tbody {
+            tr {
+                border-bottom: 2px solid #D6D7D9;
+                height: 100px;
+            }
+        }
+    }
+}

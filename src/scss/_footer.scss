@@ -1,0 +1,76 @@
+.footer {
+    width: 1920px;
+    height: 267px;
+    margin: 0 auto;
+    background: #121925;
+    padding: 87px 231px 91px;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    &__copyright {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 148%;
+        color: #FFFFFF;
+    }
+    &__right {
+        display: flex;
+    }
+    &__menu {
+        width: 131px;
+        height: 89px;
+    }
+    &__name {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1;
+        color: #D6D7D9;
+    }
+    &__links {
+        margin-top: 20px;
+        display: flex;   
+    }
+    &__links-left, &__links-right {
+        a {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 148%;
+            color: #D6D7D9;
+        }
+    }
+    &__links-left {
+        margin-right: 31px;
+    }
+    &__social {
+        margin-left: 77px;
+        width: 186px;
+        height: 89px;
+    }
+    &__production {
+        margin-left: 97px;
+        margin-top: 58px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo {
+        display: flex;
+        width: 20px;
+        height: 28px;
+        margin-right: 10px;
+    }
+    &__sign {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 130%;
+        color: #F4F4F4;
+    }
+}
